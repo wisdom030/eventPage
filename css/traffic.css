@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+* {
+  padding: 0;
+  font-size: 10px;
+  list-style: none;
+  color: #333333;
+}
+
+header {
+  width: 120rem;
+  height: 20rem;
+  margin: 0 auto;
+}
+
+header .logo a h1 {
+  font-size: 10rem;
+  font-family: "East Sea Dokdo", cursive;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+nav {
+  width: 120rem;
+  margin: 0 auto;
+}
+.menu > li {
+  float: left;
+  width: 30rem;
+  height: 5rem;
+  background-color: #148827;
+}
+.menu > li > a {
+  line-height: 5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+.submenu {
+  display: none;
+  z-index: 1;
+  position: absolute;
+}
+.submenu > li {
+  width: 30rem;
+  height: 4rem;
+  background-color: #41b64e;
+  z-index: 1;
+}
+.submenu > li > a {
+  line-height: 4rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+.submenu > li:hover > a {
+  text-decoration: underline;
+  z-index: 1;
+}
+.text_box_01 {
+  width: 120rem;
+  height: 90rem;
+  margin: 0 auto;
+  display: block;
+  padding-top: 5rem;
+}
+.text_box_01 h1 {
+  font-size: 3rem;
+}
+.text_box_01 h2 {
+  font-size: 3rem;
+}
+.text_box_01 p {
+  font-size: 2rem;
+}
+.text_box_01 span {
+  font-size: 3rem;
+  color: #61c7c9;
+}
+.text_box_01 button {
+  font-size: 2rem;
+  width: 10rem;
+  height: 4rem;
+  border: none;
+  background: #898989;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+.text_box_01 #button_01 {
+  position: relative;
+  bottom: 50rem;
+}
+.text_box_01 #button_02 {
+  position: relative;
+  bottom: 36rem;
+  left: 10rem;
+}
+.text_box_01 #button_03 {
+  position: relative;
+  bottom: 22rem;
+  left: 20rem;
+}
+.text_box_01 #button_04 {
+  position: relative;
+  bottom: 8rem;
+  left: 30rem;
+}
+.text_box_02 {
+  width: 120rem;
+  height: 13rem;
+  margin: 0 auto;
+}
+.text_box_02 h1 {
+  font-size: 3rem;
+}
+.text_box_02 p {
+  font-size: 2rem;
+}
+footer {
+  width: 120rem;
+  height: 13rem;
+  margin: 0 auto;
+  position: relative;
+  bottom: 3rem;
+}
+footer hr {
+  position: relative;
+  top: 0.8rem;
+}
+footer p {
+  font-size: 1.7rem;
+  line-height: 0.8rem;
+  position: relative;
+  top: 3rem;
+}

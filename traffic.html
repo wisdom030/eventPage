@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/jquery-3.6.0.js"></script>
+  <link rel="stylesheet" href="css/traffic.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <h1>화담숲</h1>
+      </a>
+    </div>
+  </header>
+  <nav>
+    <ul class="menu">
+      <li><a href="#">방문안내</a>
+        <ul class="submenu">
+          <li><a href="introduce.html">소개</a></li>
+          <li><a href="time.html">이용시간/요금</a></li>
+          <li><a href="traffic.html">교통정보</a></li>
+          <li><a href="other.html">기타시설</a></li>
+          <li><a href="question.html">자주 묻는 질문</a></li>
+        </ul>
+      </li>
+      <li><a href="#">관람안내</a>
+        <ul class="submenu">
+          <li><a href="monorail.html">모노레일</a></li>
+          <li><a href="flower.html">지금 볼 수 있는 꽃</a></li>
+          <li><a href="event.html">이벤트</a></li>
+        </ul>
+      </li>
+      <li><a href="notice.html">공지사항</a></li>
+      <li><a href="#">온라인 예매</a></li>
+    </ul>
+  </nav>
+  <div class="text_box_01">
+    <h1>찾아오는 길</h1>
+    <h2>네비게이션</h2>
+    <p>&nbsp;&nbsp;화담숲 또는 곤지암리조트 검색</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;- 화담숲 : (신주소) 경기 광주시 도척면 도척윗로 278-1 / (구주소) 경기 광주시 도척면 도웅리 산32-1</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;- 곤지암 리조트 : (신주소) 경기 광주시 도척면 도척윗로 278 / (구주소) 경기 광주시 도척면 도웅리 540</p><br>
+    <h2>중부고속도로 (곤지암IC 이용) : <span>약 7km</span></h2>
+    <p>중부고속도로▶곤지암IC▶경충대로▶도척윗로▶도궁초교▶곤지암리조트▶화담숲</p><br>
+    <h2>영동고속도로 (덕평IC 이용) : <span>약 17km</span></h2>
+    <p>영동고속도로▶덕평IC▶덕평로▶마도로▶도척로▶다람로▶곤지암리조트▶화담숲</p><br>
+    <h2>영동고속도로 (양지IC 이용) : <span>약 21km</span></h2>
+    <p>영동고속도로▶양지IC▶중부대로▶마도로▶도척로▶곤지암리조트▶화담숲</p><br>
+    <h2>국도/지방도로 (장지IC 이용) : <span>약 17km</span></h2>
+    <p>장지IC▶경충대로▶도척윗로▶도궁초교▶곤지암리조트▶화담숲</p>
+    <a href="https://map.naver.com/v5/directions/14173322.802226732,4488395.912224038,%EA%B3%A4%EC%A7%80%EC%95%94IC,18287567,PLACE_POI/14170069.145017877,4486248.877452303,%EA%B3%A4%EC%A7%80%EC%95%94%EB%A6%AC%EC%A1%B0%ED%8A%B8,13094600,PLACE_POI/-/car?c=14165082.9127006,4487326.4142914,11,0,0,0,dh">
+      <button id="button_01">경로보기</button>
+    </a>
+    <a href="https://map.naver.com/v5/directions/14178210.039567133,4472898.3464488285,%EB%8D%95%ED%8F%89IC,p19075499,PLACE_POI/14170069.145017877,4486248.877452303,%EA%B3%A4%EC%A7%80%EC%95%94%EB%A6%AC%EC%A1%B0%ED%8A%B8,s13094600,PLACE_POI/-/car?c=14138263.4301320,4479141.4499582,9,0,0,0,dh">
+      <button id="button_02">경로보기</button>
+    </a>
+    <a href="https://map.naver.com/v5/directions/14170353.354809824,4472533.694985208,%EC%96%91%EC%A7%80IC,p19290953,PLACE_POI/14170069.145017877,4486248.877452303,%EA%B3%A4%EC%A7%80%EC%95%94%EB%A6%AC%EC%A1%B0%ED%8A%B8,s13094600,PLACE_POI/-/car?c=14141804.5031341,4482912.3298905,9,0,0,0,dh">
+      <button id="button_03">경로보기</button>
+    </a>
+    <a href="https://map.naver.com/v5/directions/14163927.537391324,4495486.138018253,%EC%9E%A5%EC%A7%80IC,18270778,PLACE_POI/14170069.145017877,4486248.877452303,%EA%B3%A4%EC%A7%80%EC%95%94%EB%A6%AC%EC%A1%B0%ED%8A%B8,13094600,PLACE_POI/-/car?c=14154469.3576718,4490791.4690987,10,0,0,0,dh">
+      <button id="button_04">경로보기</button>
+    </a>
+  </div>
+  <div class="text_box_02">
+    <h1>화담숲 주차 안내</h1>
+    <p>주차요원 안내에 따라 지정 구역에 주차하여 주시기 바랍니다</p>
+  </div>
+  <footer>
+    <hr>
+    <p>포트폴리오용으로 만들어졌습니다</p>
+    <p>경기도 광주시 도척면 도척윗로 278-1</p>
+    <p>전화번호 031-8026-6666 사업자등록번호 126-82-11896 (화담숲) 통신판매번호 2013-서울영등포-0601</p>
+  </footer>
+  <script type="text/javascript" src="js/nav.js"></script>
+</body>
+</html>
